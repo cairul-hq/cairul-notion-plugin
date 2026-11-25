@@ -8,7 +8,7 @@ import {
   target,
   text,
   verdict,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 
 export default function notion(options) {
   const api = connection(options, {
